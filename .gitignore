@@ -144,4 +144,4 @@ build/
 .vercel
 docs/
 game.db
-.claude/
+.claude/settings.local.json
