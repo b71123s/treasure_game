@@ -26,6 +26,6 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
-            "deploy:gh": "npm run build && gh-pages -d build"
+            "deploy:gh": "gh-pages -d build"
       }
 }

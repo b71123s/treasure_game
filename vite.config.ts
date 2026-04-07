@@ -49,7 +49,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    base: '/treasure_game/',
+    base: process.env.VITE_BASE_PATH || '/',
     build: {
       target: 'esnext',
       outDir: 'build',
